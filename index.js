@@ -6,8 +6,16 @@ app.use(express.json())
 app.use(urlencoded({extended:true}))
 
 app.get("/",(req,res)=>{
-
-   return res.json("hello")
+   onj = {
+      "name":"harman",
+      "dept":"IT"
+   }
+   
+   return res.json({
+      "name":"harman",
+      "package":12000000
+   })
+   
 })
 
 
