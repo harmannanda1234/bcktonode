@@ -1,0 +1,24 @@
+{
+  "name": "backtonode",
+  "version": "1.0.0",
+  "description": "nodejs revproxy server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/harmannanda1234/bcktonode.git"
+  },
+  "author": "harmanjot singh nanda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harmannanda1234/bcktonode/issues"
+  },
+  "homepage": "https://github.com/harmannanda1234/bcktonode#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  }
+}
